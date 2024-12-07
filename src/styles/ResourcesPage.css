@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.articles-section {
+  margin-bottom: 40px;
+}
+
+.articles-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  gap: 20px;
+}
+
+.article-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.article-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.article-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.help-section {
+  background: #a6d0ff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.help-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.help-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.help-section button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.help-section button:hover {
+  background: #444;
+}
