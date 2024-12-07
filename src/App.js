@@ -7,6 +7,8 @@ import FeaturesPage from "./pages/FeaturesPage";
 import PricingPage from "./pages/PricingPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import AnotherPage from "./pages/AnotherPage";
+import ExpenseTracker from "./pages/ExpenseTracker";
+
 
 const App = () => (
   <Router>
@@ -18,6 +20,7 @@ const App = () => (
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/another" element={<AnotherPage />} />
+        <Route path="/expense-tracker" element={<ExpenseTracker />} />
      </Routes>
     </main>
     <Footer />
