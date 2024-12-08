@@ -1,0 +1,163 @@
+:root {
+  --blue-light: #eaf6ff;
+  --blue-medium: #4a90e2;
+  --blue-dark: #2b6cb0;
+  --text-dark: #333;
+  --text-light: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--blue-light);
+  color: var(--text-dark);
+}
+
+.app {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: var(--blue-dark);
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid var(--blue-medium);
+  background: var(--text-light);
+  color: var(--blue-medium);
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu-button:hover {
+  background: var(--blue-medium);
+  color: var(--text-light);
+}
+
+.menu-button.active {
+  background: var(--blue-dark);
+  color: var(--text-light);
+  border-color: var(--blue-dark);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  font-size: 1.8em;
+  color: var(--blue-dark);
+}
+
+.info p {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.try-button {
+  padding: 10px 20px;
+  background: var(--blue-dark);
+  color: var(--text-light);
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.try-button:hover {
+  background: var(--blue-medium);
+}
+
+.metrics {
+  flex: 1;
+  text-align: center;
+  background: var(--text-light);
+  border: 2px solid var(--blue-medium);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.chart-placeholder {
+  width: 100%; 
+  max-width: 600px;
+  height: auto;
+  border: 2px solid var(--blue-medium);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 10px;
+  background: var(--blue-light);
+  text-align: center;
+}
+
+.chart-placeholder img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.companies {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.companies h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  width: 45%;
+  background: var(--text-light);
+  border: 2px solid var(--blue-medium);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial h4 {
+  margin-bottom: 10px;
+  color: var(--blue-dark);
+}
+
+.testimonial p {
+  margin: 10px 0;
+  color: var(--text-dark);
+}

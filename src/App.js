@@ -21,7 +21,7 @@ const App = () => (
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/another" element={<AnotherPage />} />
         <Route path="/expense-tracker" element={<ExpenseTracker />} />
-     </Routes>
+    </Routes>
     </main>
     <Footer />
   </Router>
