@@ -15,7 +15,7 @@ const App = () => (
     <Header />
     <main>
       <Routes>
-        <Route path="/home" element={<HomePage/>} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
@@ -24,7 +24,7 @@ const App = () => (
     </Routes>
     </main>
     <Footer />
-  </Router>
+  </Router>   
 );
 
 export default App;
