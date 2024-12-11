@@ -36,7 +36,7 @@ const ArticleCard = ({ title, image }) => {
     <div className="article-card">
       <img src={image} alt="Article preview" />
       <h3>{title}</h3>
-      <a href="#">Read more</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Read more</a>
     </div>
   );
 };

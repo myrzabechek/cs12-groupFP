@@ -6,9 +6,11 @@ const image = './AnotherPageAdilhan/77ae880fca9f6acba65021352c5f78d5.png' ;
 const AnotherPage = () => 
     <div>
     <h1 style={{textAlign:"left"}}>How to forecast business <br></br> finances with gini</h1>
-<Card src="src\components\FeatureAdilhan\IMAGE.png" heading="Run Instant Analysis"
-text="Quick sync your accounting software to experience fast-track automation that produces power-packed financial reports. S
-elect parameters to run forecasts and access relevant metrics."/>;
+      <Card 
+      src="./../components/AnotherPageAdilhan/77ae880fca9f6acba65021352c5f78d5.png" 
+      heading="Run Instant Analysis"
+      text="Quick sync your accounting software to experience fast-track automation that produces power-packed financial reports. S
+         elect parameters to run forecasts and access relevant metrics."/>;
 
 <Card src="../components/AnotherPageAdilhan/IMAGE.jpg"  heading="Design and Forecast" 
 text="Find all of your data in a flexible spreadsheet for easy viewing and custom modeling. Study real-time repor
